@@ -13,7 +13,15 @@ body {
   height: 40px;
   margin: 20px;
 }
-
+.section-description {
+  color: #534c64;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin-bottom: 50px;
+  width: 520px;
+}
 .btn-primary {
   color: #fff;
   font-size: 20px;
@@ -123,13 +131,12 @@ nav a {
 
 .middle-section-container {
   display: flex;
- margin: 55px 240px;
+  margin: 55px 240px;
   width: 1920px;
 }
 
-.middle-section-container img{
-  
-height: 500px;
+.middle-section-container img {
+  height: 500px;
 }
 
 .middle-section-title {
@@ -143,15 +150,6 @@ height: 500px;
   margin-bottom: 24px;
 }
 
-.middle-section-description {
-  color: #534c64;
-  text-align: right;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px; /* 166.667% */
-  margin-bottom: 50px;
-  width: 520px;
-}
 .middle-section-content .btn-primary {
 }
 .middle-section-footer {
@@ -167,4 +165,51 @@ height: 500px;
   font-size: 32px;
   font-weight: 700;
   line-height: 45px;
+}
+
+/* online gaming Section container  */
+.online-game {
+  width: 1920px;
+  margin-top: 100px;
+}
+.online-game-title {
+  color: #0b0223;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.online-game-box-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center
+}
+
+.online-game-content .section-description-2 {
+  color: #534c64;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin-bottom: 50px;
+}
+
+.box img {
+  border-radius: 16px;
+}
+.box .section-description-3 {
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  width: 342px;
+}
+.box:hover{
+  transform:scale(1.25) ;
+}
+/* Responsive  */
+
+/* responsive for mobile section  */
+@media screen and (max-width: 576px) {
 }
