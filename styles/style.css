@@ -77,8 +77,6 @@ nav a {
   font-size: 2.8rem;
   font-weight: 700;
   color: #0b0223;
-  
-
 }
 .section-title a {
   text-decoration: none;
@@ -86,14 +84,12 @@ nav a {
   align-items: center;
 }
 .logo-section {
- 
   font-size: 2.8rem;
   font-weight: 700;
   background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
- 
 }
 
 /* banner realted style  */
@@ -328,25 +324,48 @@ nav a {
 }
 
 /* bottom section style  */
-.bottom{
+.bottom {
   width: 1920px;
   height: 427px;
-  padding: 120px 240px;
+
+  justify-content: center;
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
-.bottom-container{
+.bottom-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  justify-content: center;
-  
-  gap: 37px;
+  gap: 30px;
+  padding: 120px 240px;
 }
-.box2{
+.box2 {
   display: flex;
   align-items: center;
   gap: 16px;
+  width: 248px;
+  height: 80px;
+  border: 0.5px solid salmon;
+  justify-content: center;
   border-radius: 50px;
-background: #FFF;
 }
+.box2:hover {
+  border-radius: 50px;
+  background: white;
+  width: 317px;
+  height: 80px;
+  border: 1px solid gray;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s ;
+  transform: scale(1.25);
+  cursor: pointer;
+}
+/* footer section style  */
+footer{
+  width: 1920px;
+height: 636px;
+background: #0B0223;
+}
+
 /* Responsive  */
 
 /* responsive for mobile section  */
