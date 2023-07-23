@@ -62,13 +62,11 @@ nav > ul {
   text-align: center;
   font-size: 1.2rem;
   font-weight: 500;
-
 }
 nav li {
   list-style: none;
   margin: 30px;
   gap: 30px;
-  
 }
 nav a {
   text-decoration: none;
@@ -139,18 +137,14 @@ nav a {
   color: #534c64;
   font-size: 20px;
   font-weight: 500;
-  margin-top: 24px;
-  margin-bottom: 50px;
 }
 
 .banner li {
-  margin-bottom: 1rem;
+  list-style: none;
+  margin: 1.25rem;
 }
 
 /* middle section style  */
-.middle-section {
-}
-
 .middle-section-container {
   display: flex;
   margin: 55px 240px;
@@ -161,8 +155,6 @@ nav a {
   height: 500px;
 }
 
-.middle-section-content .btn-primary {
-}
 .middle-section-footer {
   color: #534c64;
   text-align: right;
@@ -331,7 +323,11 @@ nav a {
   height: 427px;
 
   justify-content: center;
-  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
 }
 .bottom-container {
   display: grid;
@@ -357,18 +353,92 @@ nav a {
   border: 1px solid gray;
   align-items: center;
   justify-content: center;
-  transition: 0.5s ;
+  transition: 0.5s;
   transform: scale(1.25);
   cursor: pointer;
 }
 /* footer section style  */
-footer{
+footer {
   width: 1920px;
-height: 636px;
-/* background: #0B0223; */
+  height: 636px;
+  background: #0b0223;
 }
-footer li{
+.footer-container {
+  padding: 130px 550px;
+}
 
+.footer-ul {
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+
+.footer-ul > ul {
+  display: flex;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  display: inline-flex;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 60px;
+}
+.footer-ul li {
+  list-style: none;
+}
+
+.footer-section-title {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 20px;
+}
+.footer-section-title .footer-logo-section {
+  font-size: 45px;
+  font-weight: 700;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+}
+
+.footer-logo ul {
+  display: flex;
+  margin-top: 20px;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-policy {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footer-policy ul {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.footer-policy li {
+  list-style: none;
+}
+.footer-policy a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.footer-description {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 30px;
 }
 /* Responsive  */
 
