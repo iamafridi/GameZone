@@ -5,6 +5,8 @@
 }
 body {
   font-family: "Work Sans", sans-serif;
+  width: 1920px;
+  height: 5927px;
 }
 /* logo related style  */
 .logo {
@@ -132,6 +134,19 @@ nav a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.btn-primary-another {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 48px;
+  background: #4ec5f7;
+  border: none;
+}
 
 .banner > ul {
   color: #534c64;
@@ -182,7 +197,14 @@ nav a {
   font-weight: 700;
   margin-bottom: 10px;
 }
-
+.middle-section-title {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-weight: 700;
+}
 .online-game-box-container {
   display: flex;
   gap: 20px;
@@ -210,6 +232,8 @@ nav a {
 }
 .box:hover {
   transform: scale(1.25);
+  transition: 0.75s;
+  gap: 10px;
 }
 
 /* last part styles  */
@@ -249,8 +273,13 @@ nav a {
   line-height: 60px;
 }
 .last-sec-img {
-  position: absolute;
-  margin-top: 300px;
+  /* position: absolute; */
+  position: relative;
+  margin-left: 450px;
+  margin-top: -300px;
+
+
+
 }
 
 /* career section style  */
