@@ -62,11 +62,13 @@ nav > ul {
   text-align: center;
   font-size: 1.2rem;
   font-weight: 500;
+
 }
 nav li {
   list-style: none;
   margin: 30px;
   gap: 30px;
+  
 }
 nav a {
   text-decoration: none;
@@ -363,9 +365,11 @@ nav a {
 footer{
   width: 1920px;
 height: 636px;
-background: #0B0223;
+/* background: #0B0223; */
 }
+footer li{
 
+}
 /* Responsive  */
 
 /* responsive for mobile section  */
